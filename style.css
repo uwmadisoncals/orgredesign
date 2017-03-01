@@ -8,8 +8,13 @@ Template:       calsmain2013
 Version:        0.1.0
 */
 
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
 @import url("../calsmain2013/style.css");
 @import url("../calsmain2013/master.css");
+
+
 
 #main2 {
 	clear: both;

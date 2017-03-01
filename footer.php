@@ -14,33 +14,10 @@
 	<footer id="colophon" role="contentinfo">
 		<div class="ieFooter">
 		<div class="inner">
-			<div id="pre-footer">
-			<div class="linksContainer">
-			<h3>Resources</h3>
-        	<ul id="quick_links">
-            	<li class="quick_links_list">
-                	<?php wp_nav_menu( array( 'theme_location' => 'footer1' ) ); ?>
-       	      </li>
-            	<li class="quick_links_list">
-                	<?php wp_nav_menu( array( 'theme_location' => 'footer2' ) ); ?>
-            </li>
-
-            </ul>
-            <div class="clearfix"></div>
-			</div>
-
-			<div class="linksContainer right">
-				<h3>Support</h3>
-				<p>You can help support Meat Sciences by making a contribution to the
-University of Wisconsin Foundation.</p>
-				<a href="https://www.myuwconnect.org/give?id=F692CAE2-92F4-4768-BE98-82188ECFC3F2" class="button blue">Make a Contribution</a>
-				<p class="address">College of Agricultural and Life Sciences | 1450 Linden Drive | Madison, WI 53706 | 608.262.1251 | <a href="mailto:info@cals.wisc.edu">info@cals.wisc.edu</a></p>
-			</div>
-			<div class="clearfix"></div>
-        </div>
+			
 
         <div class="copyright">
-        	<img src="<?php echo get_template_directory_uri(); ?>/images/footercrest2.png" alt="University of Wisconsin Madison" align="center" />
+        	<img src="<?php echo get_stylesheet_directory_uri(); ?>/footercrest2.png" alt="University of Wisconsin Madison" align="center" />
         	<div>&copy;Copyright 2015 The Board of Regents of the University of Wisconsin System <a href="http://wisc.edu">University of Wisconsin-Madison</a></div>
 
 
