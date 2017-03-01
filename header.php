@@ -396,7 +396,7 @@ $url = $thumb['0']; echo $url;
     			
   	
   		
-  			<div class="featureCaption">
+  			<!--<div class="featureCaption">
   				<div class="centered">
 	  				<h2><?php the_title(); ?></h2>
 	  				
@@ -405,7 +405,7 @@ $url = $thumb['0']; echo $url;
 		  				</div>
 	  				
   				</div>
-  			</div>
+  			</div>-->
   			
   		</li>
   					
